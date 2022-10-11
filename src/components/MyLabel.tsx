@@ -48,3 +48,5 @@ export const MyLabel = ({
 
   return <span className={`label ${size} text-${color}`} style={{color: fontColor, backgroundColor}}>{label}</span>;
 };
+
+export default MyLabel; // Exportar por defecto para evitar algunas posibles complicaciones (aumenta la compatibilidad)

@@ -71,3 +71,5 @@ export const Page: React.VFC = () => {
     </article>
   );
 };
+
+export default Page; // Exportar por defecto para evitar algunas posibles complicaciones (aumenta la compatibilidad)
